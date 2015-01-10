@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ListProperties>
+  <ListTemplateFilename>CSS.stp</ListTemplateFilename>
+  <ListTemplateName>CSS Content List</ListTemplateName>
+  <ListName>AET</ListName>
+  <ListDescription>A list for storing knowledge articles.</ListDescription>
+</ListProperties>

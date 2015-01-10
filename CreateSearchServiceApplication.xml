@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SearchProperties>  
+  <SearchAppPoolName>Search App Pool</SearchAppPoolName>
+  <SearchServiceName>Search Service Application</SearchServiceName>
+  <SearchServiceProxyName>Search Service Application Proxy</SearchServiceProxyName>
+  <DatabaseName>Search_AdminDB</DatabaseName>
+  <Environment>
+    <Default>
+      <IndexLocation>C:\Data\SearchIndex</IndexLocation>
+      <SearchAppPoolAccountName>firstservis\Administrator</SearchAppPoolAccountName>      
+    </Default>
+    <HPDev>
+      <IndexLocation>D:\Data\SearchIndex</IndexLocation>
+      <SearchAppPoolAccountName>fwo\Administrator</SearchAppPoolAccountName>
+    </HPDev>
+    <Dev>
+      <IndexLocation>D:\Data\SearchIndex</IndexLocation>
+      <SearchAppPoolAccountName>enetdev\serviceSPS401Crawl_D</SearchAppPoolAccountName>
+    </Dev>
+    <Test>
+      <IndexLocation>D:\Data\SearchIndex</IndexLocation>
+      <SearchAppPoolAccountName>enetdev\serviceSPS402Crawl_D</SearchAppPoolAccountName>
+    </Test>
+    <PreProd>
+      <IndexLocation>D:\Data\SearchIndex</IndexLocation>
+      <SearchAppPoolAccountName>enetpprod\service_aet_crawl_P</SearchAppPoolAccountName>
+    </PreProd>
+    <Prod>
+      <IndexLocation>D:\Data\SearchIndex</IndexLocation>
+      <SearchAppPoolAccountName>enetapp\service_aet_crawl</SearchAppPoolAccountName>
+    </Prod>
+  </Environment>
+</SearchProperties>
