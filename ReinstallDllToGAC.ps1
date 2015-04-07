@@ -20,9 +20,10 @@ function log {
 	Write-Host -ForegroundColor green "$message"
 }
 
-##########################################################
+#################################################
 ### Validate that the dll library file exists ###
-##########################################################
+#################################################
+if (-not $DeploymentDirectoryPath) { $DeploymentDirectoryPath = $pwd }
 $dllFilePath = join-path $DeploymentDirectoryPath $ConnectorDllFile
 if (-not (Test-Path $dllFilePath -pathType leaf)) { die "Library file $dllFilePath not found!" }
 
