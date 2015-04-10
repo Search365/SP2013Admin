@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchProperties>
+  <ServiceName></ServiceName>
+  <CrawledProperties>    
+  </CrawledProperties>
+  <ManagedProperties>    
+    <ManagedProperty Type="4" Name="LastModifiedTime" Recreate="false" Searchable="true" Queryable="true" Retrievable="true" HasMultiple="false" Refinable="false" Sortable="false" RespectPriority="false">
+	  <Map Category="Document Parser">LastSavedDateTime</Map>
+	  <Map Category="Basic" Propset="b725f130-47ef-101a-a5f1-02608c9eebac">14</Map>
+      <Map Category="Basic" Propset="0b63e343-9ccc-11d0-bcdb-00805fccce04">16</Map>
+      <Map Category="SharePoint">ows_Modified</Map>
+      <Map Category="Notes">lastaccessed</Map>	  
+      <Map Category="SIT Search Connectors">Enquiry_modifieddate</Map>
+      <Map Category="SIT Search Connectors">Account_modifieddate</Map>
+      <Map Category="SIT Search Connectors">Contact_modifieddate</Map>
+    </ManagedProperty>    
+  </ManagedProperties>
+</SearchProperties>
