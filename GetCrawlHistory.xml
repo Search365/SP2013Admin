@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentSources SearchServiceApplicationName="">
+  <ContentSource Name="Account" NumberOfCrawls="2000"  />
+  <ContentSource Name="Contact" NumberOfCrawls="2000"  />
+  <ContentSource Name="Enquiry" NumberOfCrawls="2000"  />
+  <ContentSource Name="Matter" NumberOfCrawls="2000"  />
+  <ContentSource Name="Mediation" NumberOfCrawls="2000"  />
+  <ContentSource Name="Campaign Response" NumberOfCrawls="2000"  />
+  <ContentSource Name="Precomplaint Intervention" NumberOfCrawls="2000"  />
+  <ContentSource Name="Small Claims Assistance" NumberOfCrawls="2000"  />
+</ContentSources>

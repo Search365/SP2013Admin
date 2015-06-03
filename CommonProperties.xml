@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommonProperties>
+  <Environment>
+    <Default>
+      <Site Url="http://fwosearch.edc.hosts.devnetwork" />
+      <KnowledgeObjectList Url="http://fsspe001/css/search/AET/" />
+    </Default>
+    <HPDev>
+      <Site Url="http://kms/css/search" />
+      <KnowledgeObjectList Url="http://kms/css/kms/ko/" />
+    </HPDev>
+    <Dev>
+      <Site Url="http://fwosearch.edc.hosts.devnetwork" />
+      <KnowledgeObjectList Url="http://kms.edc.hosts.devnetwork/css/kms/ko/" />
+    </Dev>
+    <Test>
+      <Site Url="http://fwosearch.edc.hosts.testnetwork" />
+      <KnowledgeObjectList Url="http://kms.edc.hosts.testnetwork/ko/" />
+    </Test>
+    <PreProd>
+      <Site Url="http://fwosearch.edc.hosts.pprodnetwork" />
+      <KnowledgeObjectList Url="http://kms.edc.hosts.pprodnetwork/ko/" />
+    </PreProd>
+    <Prod>
+      <Site Url="http://fwosearch.hosts.application.enet" />
+      <KnowledgeObjectList Url="http://kms.hosts.application.enet/ko/" />
+    </Prod>
+  </Environment>
+</CommonProperties>
